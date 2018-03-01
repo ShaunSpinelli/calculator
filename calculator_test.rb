@@ -12,4 +12,9 @@ class CalculatorTest < Test::Unit::TestCase
     assert_equal(5, total)
   end
 
+  def test_multiply
+    total = multiply(2, 4)
+    assert_equal(8, total)
+  end
+
 end
